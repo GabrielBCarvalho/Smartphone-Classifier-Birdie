@@ -1,4 +1,4 @@
-# Smartphone-Classifier-Birdie
+# Smartphone Classifier
 
 Um classificador que prevê, para cada produto, sua característica: 'smartphone' ou 'nao-smartphone'.
 
