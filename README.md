@@ -1,6 +1,6 @@
 # Smartphone Classifier
 
-Um classificador que prevê, para cada produto, sua característica: 'smartphone' ou 'nao-smartphone'.
+Um classificador que prevê, para cada produto, sua categoria: 'smartphone' ou 'nao-smartphone'.
 
 ## Descrição dos arquivos
 
