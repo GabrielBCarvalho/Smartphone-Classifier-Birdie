@@ -13,7 +13,7 @@ def main():
     X, y = load_dataset()
 
     # Training the classifier
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.7, random_state = 0, stratify = y)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 0, stratify = y)
     classifier = RandomForestClassifier(n_estimators = 1000, random_state = 0)  
     classifier.fit(X_train, y_train.ravel()) 
 
