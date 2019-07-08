@@ -4,7 +4,7 @@ Um classificador que prevê, para cada produto, sua categoria: 'smartphone' ou '
 
 ## Descrição dos arquivos
 
-- **trainer.py**: script responsável pelo treinamento do classificador. O modelo gerado é salvo em smartphone_classifier e utilizado no arquivo classificador. Quando executado, também exibe informações sobre o modelo, em um teste realizado com 70% das entradas.
+- **trainer.py**: script responsável pelo treinamento do classificador. O modelo gerado é salvo em smartphone_classifier e utilizado no arquivo classificador. Quando executado, também exibe informações sobre o modelo, em um teste realizado com 30% das entradas.
 
 - **classifier.py**: classificador final. Utiliza o arquivo smartphone_classifier para prever a categoria de cada título. As respostas são salvas no arquivo output.csv. Quando executado, também exibe informações sobre as previsões realizadas em todas as entradas.
 
