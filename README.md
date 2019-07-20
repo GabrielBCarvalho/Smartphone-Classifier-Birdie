@@ -33,3 +33,16 @@ Para realizar a classificação, basta executar *classifier.py*. Este arquivo ut
 - A técnica de Aprendizado de Máquina utilizada corresponde ao Random Forest Classifier.
 
 - Como a base de dados é relativamente pequena e de fácil anotação, todos os dados foram classificados manualmente e disponibilizados em *y_file.csv*, de maneira que pudesse ser utilizado para treinamento e análise dos resultados do classificador. 
+
+
+# Crawler
+- Execute o arquivo *submarino_spider.py*;
+
+- Em seguida, na raíz do diretório Crawler, insira: `scrapy crawl submarino -o submarino.jl` . Neste momento, os dados coletados no site do Submarino são adicionados ao arquivo *submarino.jl*.
+
+- Por fim, ainda na raíz do diretório Crawler, execute `python helper.py "submarino.jl" "submarino"` para criar o arquivo *collected_datas_submarino.tvs*, que organiza os dados recuperados anteriormente.
+
+# Matching
+Na raíz do diretório, execute o arquivo *matching.py*. Será gerado um arquivo de saída, denominado *matching_titles.tsv*, contendo os pares identificados e seus níveis de similaridade.
+
+- Observação: é importante que exista, ao menos nesta demonstração, o arquivo **collected_datas_submarino.tsv** no diretório Crawler.
