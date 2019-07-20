@@ -45,4 +45,6 @@ Para realizar a classificação, basta executar *classifier.py*. Este arquivo ut
 # Matching
 Na raíz do diretório, execute o arquivo *matching.py*. Será gerado um arquivo de saída, denominado *matching_titles.tsv*, contendo os pares identificados e seus níveis de similaridade.
 
-- Observação: é importante que exista, ao menos nesta demonstração, o arquivo **collected_datas_submarino.tsv** no diretório Crawler.
+- Observação 1: As duas categorias de matching inferiores - **Probably Similar** e **Possibly Similar** não possuem uma elevada acurácia, e servem mais como "adicional". Desta forma, são priorizados os matchings encontrados na categoria superior: **Very Likely Similar**.
+
+- Observação 2: é importante que exista, ao menos nesta demonstração, o arquivo **collected_datas_submarino.tsv** no diretório Crawler.
